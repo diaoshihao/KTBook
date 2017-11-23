@@ -19,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = RootTabBarController()
         self.window?.makeKeyAndVisible()
+        
+        LaunchPage().showPage()
+        
         return true
     }
 

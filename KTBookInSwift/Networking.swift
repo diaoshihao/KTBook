@@ -28,10 +28,12 @@ extension Networking {
     func postRequest(url: String, parameters: Parameters, success: @escaping(_ respone: [String:String])->(), failed: @escaping(_ failure: NetworkFailure)->()) {
         Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: [:]).responseJSON { (respone) in
             
-            if let json = respone.result.value {
-                
-            } else if let error = respone.result.error {
-                
+            respone.result.ifSuccess {
+                success(respone.result.value as! [String : String])
+            }
+            
+            respone.result.ifFailure {
+                failed(.failedRequest)
             }
             
         }

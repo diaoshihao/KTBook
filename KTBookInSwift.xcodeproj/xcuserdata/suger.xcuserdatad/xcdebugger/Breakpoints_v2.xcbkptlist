@@ -2,4 +2,102 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTBookInSwift/LaunchPage.swift"
+            timestampString = "533126229.13182"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "loadImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KTBookInSwift.LaunchImageView.(loadImage () -&gt; ()).(closure #1)"
+                  moduleName = "KTBookInSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suger/Desktop/KTBookInSwift/KTBookInSwift/LaunchPage.swift"
+                  timestampString = "533126483.815275"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KTBookInSwift.LaunchImageView.(loadImage () -&gt; ()).(closure #2)"
+                  moduleName = "KTBookInSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suger/Desktop/KTBookInSwift/KTBookInSwift/LaunchPage.swift"
+                  timestampString = "533126483.816721"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "10">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTBookInSwift/LaunchPage.swift"
+            timestampString = "533126247.345815"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "loadImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KTBookInSwift.LaunchImageView.loadImage () -&gt; ()"
+                  moduleName = "KTBookInSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suger/Desktop/KTBookInSwift/KTBookInSwift/LaunchPage.swift"
+                  timestampString = "533126483.820338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KTBookInSwift.LaunchImageView.(loadImage () -&gt; ()).(closure #2)"
+                  moduleName = "KTBookInSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suger/Desktop/KTBookInSwift/KTBookInSwift/LaunchPage.swift"
+                  timestampString = "533126483.821574"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "10">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
