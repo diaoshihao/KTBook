@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BA277EB1FC50FC50034CE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA277EA1FC50FC50034CE30 /* AppDelegate.swift */; };
+		9BA277ED1FC50FC50034CE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA277EC1FC50FC50034CE30 /* ViewController.swift */; };
+		9BA277F01FC50FC60034CE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA277EE1FC50FC60034CE30 /* Main.storyboard */; };
+		9BA277F21FC50FC60034CE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA277F11FC50FC60034CE30 /* Assets.xcassets */; };
+		9BA277F51FC50FC60034CE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA277F31FC50FC60034CE30 /* LaunchScreen.storyboard */; };
+		9BA278001FC50FC60034CE30 /* KTBookInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA277FF1FC50FC60034CE30 /* KTBookInSwiftTests.swift */; };
+		9BA2780B1FC50FC60034CE30 /* KTBookInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2780A1FC50FC60034CE30 /* KTBookInSwiftUITests.swift */; };
+		9BA2781D1FC527C20034CE30 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2781C1FC527C20034CE30 /* CustomTabBar.swift */; };
+		9BA2781F1FC530CF0034CE30 /* UIViewFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2781E1FC530CF0034CE30 /* UIViewFrame.swift */; };
+		9BA278211FC54DF30034CE30 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA278201FC54DF30034CE30 /* RootTabBarController.swift */; };
+		9BA278231FC56D810034CE30 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA278221FC56D800034CE30 /* Const.swift */; };
+		9BA278261FC574C40034CE30 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA278251FC574C40034CE30 /* RootNavigationController.swift */; };
+		9BA278281FC577DF0034CE30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA278271FC577DF0034CE30 /* HomeViewController.swift */; };
+		9BA2782A1FC578710034CE30 /* BookLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA278291FC578710034CE30 /* BookLibViewController.swift */; };
+		9BA2782C1FC578AD0034CE30 /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2782B1FC578AD0034CE30 /* ReadingViewController.swift */; };
+		9BA2782E1FC578B60034CE30 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2782D1FC578B60034CE30 /* MineViewController.swift */; };
+		9BA278301FC57A8C0034CE30 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2782F1FC57A8C0034CE30 /* Interface.swift */; };
+		9BA278341FC57CC30034CE30 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA278331FC57CC30034CE30 /* Networking.swift */; };
+		9BA278351FC6621E0034CE30 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA2781A1FC526180034CE30 /* Alamofire.framework */; };
+		9BA278361FC6621E0034CE30 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA2781A1FC526180034CE30 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BA277FC1FC50FC60034CE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA277DF1FC50FC50034CE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA277E61FC50FC50034CE30;
+			remoteInfo = KTBookInSwift;
+		};
+		9BA278071FC50FC60034CE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA277DF1FC50FC50034CE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA277E61FC50FC50034CE30;
+			remoteInfo = KTBookInSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BA278371FC6621E0034CE30 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9BA278361FC6621E0034CE30 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9BA277E71FC50FC50034CE30 /* KTBookInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTBookInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA277EA1FC50FC50034CE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BA277EC1FC50FC50034CE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BA277EF1FC50FC60034CE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA277F11FC50FC60034CE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA277F41FC50FC60034CE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA277F61FC50FC60034CE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA277FB1FC50FC60034CE30 /* KTBookInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTBookInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA277FF1FC50FC60034CE30 /* KTBookInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTBookInSwiftTests.swift; sourceTree = "<group>"; };
+		9BA278011FC50FC60034CE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA278061FC50FC60034CE30 /* KTBookInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTBookInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA2780A1FC50FC60034CE30 /* KTBookInSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTBookInSwiftUITests.swift; sourceTree = "<group>"; };
+		9BA2780C1FC50FC60034CE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA2781A1FC526180034CE30 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		9BA2781C1FC527C20034CE30 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		9BA2781E1FC530CF0034CE30 /* UIViewFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewFrame.swift; sourceTree = "<group>"; };
+		9BA278201FC54DF30034CE30 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		9BA278221FC56D800034CE30 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		9BA278251FC574C40034CE30 /* RootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+		9BA278271FC577DF0034CE30 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9BA278291FC578710034CE30 /* BookLibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookLibViewController.swift; sourceTree = "<group>"; };
+		9BA2782B1FC578AD0034CE30 /* ReadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
+		9BA2782D1FC578B60034CE30 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		9BA2782F1FC57A8C0034CE30 /* Interface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		9BA278331FC57CC30034CE30 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA277E41FC50FC50034CE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA278351FC6621E0034CE30 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA277F81FC50FC60034CE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA278031FC50FC60034CE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA277DE1FC50FC50034CE30 = {
+			isa = PBXGroup;
+			children = (
+				9BA277E91FC50FC50034CE30 /* KTBookInSwift */,
+				9BA277FE1FC50FC60034CE30 /* KTBookInSwiftTests */,
+				9BA278091FC50FC60034CE30 /* KTBookInSwiftUITests */,
+				9BA277E81FC50FC50034CE30 /* Products */,
+				9BA278191FC526180034CE30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA277E81FC50FC50034CE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA277E71FC50FC50034CE30 /* KTBookInSwift.app */,
+				9BA277FB1FC50FC60034CE30 /* KTBookInSwiftTests.xctest */,
+				9BA278061FC50FC60034CE30 /* KTBookInSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA277E91FC50FC50034CE30 /* KTBookInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9BA277EA1FC50FC50034CE30 /* AppDelegate.swift */,
+				9BA277EC1FC50FC50034CE30 /* ViewController.swift */,
+				9BA2782F1FC57A8C0034CE30 /* Interface.swift */,
+				9BA278271FC577DF0034CE30 /* HomeViewController.swift */,
+				9BA278291FC578710034CE30 /* BookLibViewController.swift */,
+				9BA2782B1FC578AD0034CE30 /* ReadingViewController.swift */,
+				9BA2782D1FC578B60034CE30 /* MineViewController.swift */,
+				9BA2781C1FC527C20034CE30 /* CustomTabBar.swift */,
+				9BA278201FC54DF30034CE30 /* RootTabBarController.swift */,
+				9BA278251FC574C40034CE30 /* RootNavigationController.swift */,
+				9BA278381FC6ABB40034CE30 /* Library */,
+				9BA278241FC571810034CE30 /* Utils */,
+				9BA277EE1FC50FC60034CE30 /* Main.storyboard */,
+				9BA277F11FC50FC60034CE30 /* Assets.xcassets */,
+				9BA277F31FC50FC60034CE30 /* LaunchScreen.storyboard */,
+				9BA277F61FC50FC60034CE30 /* Info.plist */,
+			);
+			path = KTBookInSwift;
+			sourceTree = "<group>";
+		};
+		9BA277FE1FC50FC60034CE30 /* KTBookInSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA277FF1FC50FC60034CE30 /* KTBookInSwiftTests.swift */,
+				9BA278011FC50FC60034CE30 /* Info.plist */,
+			);
+			path = KTBookInSwiftTests;
+			sourceTree = "<group>";
+		};
+		9BA278091FC50FC60034CE30 /* KTBookInSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2780A1FC50FC60034CE30 /* KTBookInSwiftUITests.swift */,
+				9BA2780C1FC50FC60034CE30 /* Info.plist */,
+			);
+			path = KTBookInSwiftUITests;
+			sourceTree = "<group>";
+		};
+		9BA278191FC526180034CE30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2781A1FC526180034CE30 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BA278241FC571810034CE30 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2781E1FC530CF0034CE30 /* UIViewFrame.swift */,
+				9BA278221FC56D800034CE30 /* Const.swift */,
+				9BA278331FC57CC30034CE30 /* Networking.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9BA278381FC6ABB40034CE30 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA277E61FC50FC50034CE30 /* KTBookInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA2780F1FC50FC60034CE30 /* Build configuration list for PBXNativeTarget "KTBookInSwift" */;
+			buildPhases = (
+				9BA277E31FC50FC50034CE30 /* Sources */,
+				9BA277E41FC50FC50034CE30 /* Frameworks */,
+				9BA277E51FC50FC50034CE30 /* Resources */,
+				9BA278181FC522190034CE30 /* ShellScript */,
+				9BA278371FC6621E0034CE30 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTBookInSwift;
+			productName = KTBookInSwift;
+			productReference = 9BA277E71FC50FC50034CE30 /* KTBookInSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BA277FA1FC50FC60034CE30 /* KTBookInSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA278121FC50FC60034CE30 /* Build configuration list for PBXNativeTarget "KTBookInSwiftTests" */;
+			buildPhases = (
+				9BA277F71FC50FC60034CE30 /* Sources */,
+				9BA277F81FC50FC60034CE30 /* Frameworks */,
+				9BA277F91FC50FC60034CE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA277FD1FC50FC60034CE30 /* PBXTargetDependency */,
+			);
+			name = KTBookInSwiftTests;
+			productName = KTBookInSwiftTests;
+			productReference = 9BA277FB1FC50FC60034CE30 /* KTBookInSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BA278051FC50FC60034CE30 /* KTBookInSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA278151FC50FC60034CE30 /* Build configuration list for PBXNativeTarget "KTBookInSwiftUITests" */;
+			buildPhases = (
+				9BA278021FC50FC60034CE30 /* Sources */,
+				9BA278031FC50FC60034CE30 /* Frameworks */,
+				9BA278041FC50FC60034CE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA278081FC50FC60034CE30 /* PBXTargetDependency */,
+			);
+			name = KTBookInSwiftUITests;
+			productName = KTBookInSwiftUITests;
+			productReference = 9BA278061FC50FC60034CE30 /* KTBookInSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA277DF1FC50FC50034CE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = diaoshihao;
+				TargetAttributes = {
+					9BA277E61FC50FC50034CE30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9BA277FA1FC50FC60034CE30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BA277E61FC50FC50034CE30;
+					};
+					9BA278051FC50FC60034CE30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BA277E61FC50FC50034CE30;
+					};
+				};
+			};
+			buildConfigurationList = 9BA277E21FC50FC50034CE30 /* Build configuration list for PBXProject "KTBookInSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA277DE1FC50FC50034CE30;
+			productRefGroup = 9BA277E81FC50FC50034CE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA277E61FC50FC50034CE30 /* KTBookInSwift */,
+				9BA277FA1FC50FC60034CE30 /* KTBookInSwiftTests */,
+				9BA278051FC50FC60034CE30 /* KTBookInSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA277E51FC50FC50034CE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA277F51FC50FC60034CE30 /* LaunchScreen.storyboard in Resources */,
+				9BA277F21FC50FC60034CE30 /* Assets.xcassets in Resources */,
+				9BA277F01FC50FC60034CE30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA277F91FC50FC60034CE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA278041FC50FC60034CE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BA278181FC522190034CE30 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA277E31FC50FC50034CE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2781F1FC530CF0034CE30 /* UIViewFrame.swift in Sources */,
+				9BA2782E1FC578B60034CE30 /* MineViewController.swift in Sources */,
+				9BA278211FC54DF30034CE30 /* RootTabBarController.swift in Sources */,
+				9BA278341FC57CC30034CE30 /* Networking.swift in Sources */,
+				9BA2782A1FC578710034CE30 /* BookLibViewController.swift in Sources */,
+				9BA277ED1FC50FC50034CE30 /* ViewController.swift in Sources */,
+				9BA278281FC577DF0034CE30 /* HomeViewController.swift in Sources */,
+				9BA2781D1FC527C20034CE30 /* CustomTabBar.swift in Sources */,
+				9BA277EB1FC50FC50034CE30 /* AppDelegate.swift in Sources */,
+				9BA2782C1FC578AD0034CE30 /* ReadingViewController.swift in Sources */,
+				9BA278261FC574C40034CE30 /* RootNavigationController.swift in Sources */,
+				9BA278231FC56D810034CE30 /* Const.swift in Sources */,
+				9BA278301FC57A8C0034CE30 /* Interface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA277F71FC50FC60034CE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA278001FC50FC60034CE30 /* KTBookInSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA278021FC50FC60034CE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2780B1FC50FC60034CE30 /* KTBookInSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BA277FD1FC50FC60034CE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA277E61FC50FC50034CE30 /* KTBookInSwift */;
+			targetProxy = 9BA277FC1FC50FC60034CE30 /* PBXContainerItemProxy */;
+		};
+		9BA278081FC50FC60034CE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA277E61FC50FC50034CE30 /* KTBookInSwift */;
+			targetProxy = 9BA278071FC50FC60034CE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BA277EE1FC50FC60034CE30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA277EF1FC50FC60034CE30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA277F31FC50FC60034CE30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA277F41FC50FC60034CE30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA2780D1FC50FC60034CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BA2780E1FC50FC60034CE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA278101FC50FC60034CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = KTBookInSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diaoshihao.KTBookInSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BA278111FC50FC60034CE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = KTBookInSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diaoshihao.KTBookInSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9BA278131FC50FC60034CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KTBookInSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diaoshihao.KTBookInSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTBookInSwift.app/KTBookInSwift";
+			};
+			name = Debug;
+		};
+		9BA278141FC50FC60034CE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KTBookInSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diaoshihao.KTBookInSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTBookInSwift.app/KTBookInSwift";
+			};
+			name = Release;
+		};
+		9BA278161FC50FC60034CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KTBookInSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diaoshihao.KTBookInSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KTBookInSwift;
+			};
+			name = Debug;
+		};
+		9BA278171FC50FC60034CE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KTBookInSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diaoshihao.KTBookInSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KTBookInSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA277E21FC50FC50034CE30 /* Build configuration list for PBXProject "KTBookInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA2780D1FC50FC60034CE30 /* Debug */,
+				9BA2780E1FC50FC60034CE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA2780F1FC50FC60034CE30 /* Build configuration list for PBXNativeTarget "KTBookInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA278101FC50FC60034CE30 /* Debug */,
+				9BA278111FC50FC60034CE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BA278121FC50FC60034CE30 /* Build configuration list for PBXNativeTarget "KTBookInSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA278131FC50FC60034CE30 /* Debug */,
+				9BA278141FC50FC60034CE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BA278151FC50FC60034CE30 /* Build configuration list for PBXNativeTarget "KTBookInSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA278161FC50FC60034CE30 /* Debug */,
+				9BA278171FC50FC60034CE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA277DF1FC50FC50034CE30 /* Project object */;
+}
